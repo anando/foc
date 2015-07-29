@@ -1,0 +1,24 @@
+body{
+	background-color:#edeae5;
+}
+
+a{
+	background-color:#344756;
+}
+
+main{
+	background-color:#ccccff;
+	border: 5px solid #b4d8e7;
+}
+
+h1{
+	align:center;
+	color:#344756;
+}
+
+select{
+	width: 350px;
+	align: center;
+	
+}
+
