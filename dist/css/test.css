@@ -22,3 +22,12 @@ select{
 	align: center!important;
 	
 }
+
+nav{
+	background:#ccccff!important;
+	opacity:0.9!important;
+}
+
+#lightChange {
+	background:#ccccff!important;
+}
