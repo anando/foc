@@ -1,5 +1,5 @@
 <?php 
-$link = mysql_connect('localhost', 'p1941555182', 'Anando1212');
+$link = mysql_connect('localhost', 'p1941555182', '');
 if (!$link) {
     die('Could not connect: ' . mysql_error());
 }
