@@ -1,4 +1,24 @@
 /*styles for the project */
 body{
-	background-color:red!important;
+	background-color:#edeae5!important;
+}
+
+a{
+	background-color:#344756!important;
+}
+
+#main{
+	background-color:#ccccff!important;
+	border: 5px solid #b4d8e7!important;
+}
+
+h1{
+	align:center!important;
+	color:#344756!important;
+}
+
+select{
+	width: 350px!important;
+	align: center!important;
+	
 }
