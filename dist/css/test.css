@@ -3,10 +3,6 @@ body{
 	background-color:#edeae5!important;
 }
 
-a{
-	background-color:#344756!important;
-}
-
 #main{
 	background-color:#ccccff!important;
 	border: 5px solid #b4d8e7!important;
@@ -15,6 +11,10 @@ a{
 h1{
 	align:center!important;
 	color:#344756!important;
+}
+
+p{
+	colour:#344756!important
 }
 
 nav{
