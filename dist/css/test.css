@@ -33,15 +33,25 @@ a{
     display:block;
     width:235px;
     height:30px;
-    border:1px solid #999;
+    border:2px solid #b4d8e7;
+	border-radius: 4px;
     padding:5px;
+	background-color:#edeae5;
+	color:#344756
 }
+
+ul{
+	padding:0px;
+}
+
 .toc-odd{
-   background:#f1f1f1;
-   width:250px;
-    display:none;
+   background-color:#edeae5;
+   width:234px;
+   display:none;
+   text-align:center;
+   color:#344756;
 }
 .toc-odd li{
-    padding:5px 10px;
-    border-bottom:1px solid #999;
+	padding:5px 0px;
+	list-style-type:none;
 }
