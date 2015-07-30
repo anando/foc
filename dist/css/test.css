@@ -25,6 +25,7 @@ nav{
 
 .sel-box{
     position:relative;
+	margin-top:10px;
 }
 a{
     text-decoration:none;
@@ -32,13 +33,14 @@ a{
 
 #select{
     display:block;
-    width:235px;
-    height:30px;
+    width:234px;
+    height:40px;
     border:2px solid #b4d8e7;
 	border-radius: 4px;
-    padding:5px;
+    /*padding:5px;*/
 	background-color:#edeae5;
-	color:#344756
+	color:#344756;
+	
 }
 
 ul{
@@ -47,12 +49,18 @@ ul{
 
 .toc-odd{
    background-color:#edeae5;
-   width:234px;
+   width:230px;
    display:none;
    text-align:center;
    color:#344756;
+   font-size:24px;
 }
 .toc-odd li{
-	padding:5px 0px;
+	padding:5px;
 	list-style-type:none;
+}
+.lead{
+	font-size:36px;
+	margin-bottom:0!important;
+	padding:5px 0;
 }
