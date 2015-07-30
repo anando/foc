@@ -21,6 +21,19 @@
     <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
     <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
     <script src="assets/js/ie-emulation-modes-warning.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	<script>
+		$(function(){
+		$('#select').click(function(){
+			$('#sel-option').show();        
+		});
+		$('#sel-option a').click(function(e){
+			 $('#select').text($(this).text());
+			 $('#sel-option').hide(); 
+			$(this).addClass('current');
+		})
+	})
+	</script>
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -45,15 +58,28 @@
         <center>
 		<h1 style="align : center; color: 344756;" >Our TwitterGram is your TwitterGram so share the love!</h1
 		<p class="lead">Simply choose which type of clothing to see what is trending down below:</p>
-        <select style="width : 350px; align : center">
-  <option id="jumper" value="jumper">Jumpers</option>
-  <option id="tops" value="tops">Tops</option>
-</select>
+		<div class="sel-box">
+			<span id='select'>Select</span>
+			<ul class='toc-odd level-1' id="sel-option">
+			  <li><a href="">It's finally here</a></li>
+			  <li><a href="2">Improvements</a></li>
+			  <li><a href="jumpers.html">Handling</a></li>
+			</ul>
+		</div>
       <nav><p> </p>
     <p><a class="btn btn-lg btn-success" href="#" button="submit" style="background-color:#344756;">Find my TumblrGram!</a></p>
       </div>
           </center>
- 
+		 <center><h3>Today's OOTD</h3></center>
+<iframe src="http://snapwidget.com/in/?h=b290ZHxpbnwyMDB8NXwxfHx5ZXN8MjB8bm9uZXxvblN0YXJ0fHllc3xubw==&ve=290715" title="Instagram Widget" class="snapwidget-widget" allowTransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden; width:1150px; height:230px"></iframe>
+<a href="http://www.accuweather.com/en/gb/london/ec4a-2/weather-forecast/328328" class="aw-widget-legal">
+<!--
+By accessing and/or using this code snippet, you agree to AccuWeather’s terms and conditions (in English) which can be found at http://www.accuweather.com/en/free-weather-widgets/terms and AccuWeather’s Privacy Statement (in English) which can be found at http://www.accuweather.com/en/privacy.
+--></center><center>
+</a><div id="awcc1438176644568" class="aw-widget-current"  data-locationkey="328328" data-unit="c" data-language="en-gb" data-useip="false" data-uid="awcc1438176644568"></div><script type="text/javascript" src="http://oap.accuweather.com/launch.js"></script>
+         <a href="https://twitter.com/share" class="twitter-share-button" data-text="Check out todays OOTD" data-size="large" data-hashtags="OOTD">Tweet</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+		 
 
 
         <p>&copy; This is a test </p>
