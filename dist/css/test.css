@@ -17,17 +17,31 @@ h1{
 	color:#344756!important;
 }
 
-select{
-	width: 350px!important;
-	align: center!important;
-	
-}
-
 nav{
 	background:#ccccff!important;
 	opacity:0.9!important;
 }
 
-#lightChange {
-	background:#ccccff!important;
+.sel-box{
+    position:relative;
+}
+a{
+    text-decoration:none;
+}
+
+#select{
+    display:block;
+    width:235px;
+    height:20px;
+    border:1px solid #999;
+    padding:5px;
+}
+.toc-odd{
+   background:#f1f1f1;
+   width:250px;
+    display:none;
+}
+.toc-odd li{
+    padding:5px 10px;
+    border-bottom:1px solid #999;
 }
